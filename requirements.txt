@@ -1,0 +1,31 @@
+# Project dependencies
+black==24.3.0
+flake8==6.1.0
+pytest==8.2.1
+python-dotenv==1.0.1
+
+# Core
+pandas==2.3.0
+numpy==2.3.0
+scikit-learn==1.7.0
+#scipy==1.13.0
+
+# Statistical Modeling & A/B Testing
+statsmodels==0.14.1
+lifelines==0.27.8  # Optional, for survival analysis
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+#plotly==5.21.0
+
+# EDA Automation (optional)
+ydata-profiling==4.7.0  # Formerly pandas-profiling
+
+# Machine Learning Utility
+xgboost==3.0.2
+lightgbm==4.3.0
+
+# Jupyter & Notebook
+jupyter==1.0.0
+notebook==7.1.3
