@@ -21,6 +21,7 @@ dist/
 *.log
 
 # Data
+data/
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
