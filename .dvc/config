@@ -1,6 +1,10 @@
 [core]
-    remote = gdrive_remote
+    remote = localstorage
 ['remote "gdrive"']
     url = gdrive://1YpJcG2ZaYeJymtHatoBiSJdEqWsCZ4Fg
 ['remote "gdrive_remote"']
     url = gdrive://1lGbT0PqM8gq8DY6UTBqIrsfNnguguTt6
+['remote "mygdrive"']
+    url = gdrive://1YpJcG2ZaYeJymtHatoBiSJdEqWsCZ4Fg
+['remote "localstorage"']
+    url = E:\Tenx\dvc-storage
