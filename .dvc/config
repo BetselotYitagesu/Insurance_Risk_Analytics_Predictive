@@ -7,4 +7,8 @@
 ['remote "mygdrive"']
     url = gdrive://1YpJcG2ZaYeJymtHatoBiSJdEqWsCZ4Fg
 ['remote "localstorage"']
+<<<<<<< HEAD
     url = E:/Tenx/dvc-storage
+=======
+    url = E:\Tenx\dvc-storage
+>>>>>>> 67d03f0c67b2fb8543d5eaa67300da8b22b22cf3
