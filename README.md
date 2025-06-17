@@ -89,6 +89,69 @@ Run Dashboard (Optional)
 
     High-risk patterns exist in younger age groups with multiple claims.
 
+📊 Task 3: A/B Testing & Statistical Analysis
+Objective
+
+To statistically assess whether different customer or policy groups exhibit significant differences in claim behavior, using hypothesis testing and visual analysis.
+Key Steps
+
+    Exploratory Comparisons: Analyzed claim distribution by Policy_Type, VehicleClass, and Product.
+
+    Statistical Tests:
+
+        Applied t-tests and ANOVA to compare means of TotalClaims across groups.
+
+        Used chi-square tests to assess independence between categorical variables like Claim and Policy_Type.
+
+    Visualization:
+
+        Countplots and boxplots created using seaborn and matplotlib to visualize group-level differences.
+
+    Interpretation:
+
+        Results helped identify segments with significantly higher claim rates.
+
+Output
+
+    Statistical test results and visualizations included in notebooks/task-3-ab-testing.ipynb.
+
+    Insights used to inform modeling strategies in Task 4.
+
+🤖 Task 4: Predictive Modeling & Premium Optimization
+Objective
+
+To predict the claim severity (TotalClaims) using machine learning models, with the goal of optimizing premiums and minimizing risk.
+Data Preparation
+
+    Feature Engineering:
+
+        Filtered dataset for policies where TotalClaims > 0.
+
+        Encoded categorical features using OneHotEncoder.
+
+    Train/Test Split:
+
+        Split into 80% training and 20% testing sets.
+
+Models Trained
+
+    Linear Regression
+
+    Random Forest Regressor
+
+    Gradient Boosting Regressor
+
+Performance (RMSE)
+Model RMSE
+Linear Regression 36,968.67
+Random Forest Regressor 36,433.03
+Gradient Boosting 35,634.86 ✅
+Deliverables
+
+    All modeling code is in notebooks/task-4-modeling.ipynb.
+
+    Final trained models saved under models/ using joblib.
+
 📃 License
 
 This project is part of the 10 Academy training program and intended for educational and research purposes only.
